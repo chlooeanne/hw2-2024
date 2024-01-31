@@ -1,0 +1,116 @@
+body {
+    /* default text is Arial with Verdana as a fallback option */
+    font-family: Arial, Verdana;
+    /* black background */
+    background-color: #000000;
+    /* white font */
+    color: #FFFFFF;
+    /* margin of 20px on top and sides (none on the bottom) */
+    margin: 20px 20px 0px 20px;
+}
+h1 {
+    /* 42px centered font */
+    font-size: 42px;
+    text-align: center;
+    /* padding of 15px */
+    padding: 15px;
+}
+h2 {
+    /* 30px dark gray font */
+    font-size: 30px;
+    color: #0D0D0D;
+}
+p {
+    /* 24px font */
+    font-size: 24px;
+    /* padding of 10px on the top and left only */
+    padding: 10px 0px 0px 10px;
+}
+img {
+    /* all images are 250px wide */
+    width: 250px;
+    /* all images are centered */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* all images have a white 10px dashed border */
+    border: dashed 10px #FFFFFF;
+}
+div {
+    /* a flexible height of at least 125px tall */
+    min-height: 125px;
+    /* padding of 20px on all sides */
+    padding: 20px;
+    /* a 3px solid white border on all sides */
+    border: solid 3px #FFFFFF;
+}
+.introduction {
+    /* 15px border-radius */
+    border-radius: 15px;
+    /* margin of 15px margin at the top */
+    margin-top: 15px;
+    /* double-spaced text */
+    line-height: 2;
+}
+.red {
+    /* background color is hex value for red */
+    background-color: #FF0000;
+    /* text is aligned on the right side */
+    text-align: right;
+    /* a left margin of 50px */
+    margin-left: 50px;
+    /* a border of 2px on the bottom and 5px on the left */
+    border-width: 0px 0px 2px 5px;
+}
+.blue {
+    /* background color is hex value for blue */
+    background-color: #0000FF;
+    /* text is aligned on the left side */
+    text-align: left;
+    /* a right margin of 50px */
+    margin-right: 50px;
+    /* a border 5px on the right and 2px on the top */
+    border-width: 2px 5px 0px 0px;
+}
+.blue h2, .blue p {
+    /* use C4C4C4 for heading and paragraph text */
+    color: #C4C4C4;
+}
+.yellow {
+    /* background color is the hex value for yellow */
+    background-color: #FFFF00;
+    /* text is aligned on the right side */
+    text-align: right;
+    /* a left margin of 50px */
+    margin-left: 50px;
+    /* a border of 2px on the bottom and 5px on the left */
+    border-width: 0px 0px 2px 5px;
+    /* use #707070 for the paragraph text */
+}
+.yellow p {
+    color: #707070;
+}
+.green {
+    /* background color is the hex value for green */
+    background-color: #00D800;
+    /* text is aligned on the left side */
+    text-align: left;
+    /* a right margin of 50px */
+    margin-right: 50px;
+    /* a border of 5px on the right and 2px on the top */
+    border-width: 2px 5px 0px 0px;
+}
+footer {
+    /* a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000 */
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
+    /* a 5px solid white border */
+    border: solid 5px #FFFFFF;
+}
+footer p {
+    /* 20px text that is aligned to the right */
+    font-size: 20px;
+    text-align: right;
+    /* padding of 15px on the top, right, and bottom only */
+    padding: 15px 15px 15px 0px;
+}
